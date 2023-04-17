@@ -44,9 +44,6 @@ jobs:
       - name: Install PSDesiredStateConfiguration
         run: Install-Module PSDesiredStateConfiguration -Force -AllowClobber
 
-      - name: Install AnyPackage
-        run: Install-Module AnyPackage -Force -AllowClobber
-
       - name: Install PowerShellGet
         run: Install-Module PowerShellGet -AllowPrerelease -Force -AllowClobber
 
